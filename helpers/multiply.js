@@ -2,6 +2,7 @@ const fs = require("fs");
 const colors = require("colors");
 
 const createFile = async (base = 5, list = false, expo = 10) => {
+
 	try {
 
 		let out = "";
@@ -16,6 +17,7 @@ const createFile = async (base = 5, list = false, expo = 10) => {
 			console.log("=================================".green);
 			console.log("Table base :".underline.green, colors.green(base));
 			console.log("=================================".green);
+
 			console.log(out_console);
 		}
 		
@@ -23,6 +25,7 @@ const createFile = async (base = 5, list = false, expo = 10) => {
 		fs.writeFileSync(`./out/table-${base}.txt`, out);
 
 		return `table-${base}.txt`;
+		
 	} catch (error) {
 		throw error;
 	}
