@@ -1,12 +1,14 @@
 #Notes:
 
+This is my first program in the console of Node
+
 ```
 Options:
-      --help     Show help                                             [boolean]
-      --version  Show version number                                   [boolean]
-  -b, --base     Base number of multiplication table         [number] [required]
-  -l, --list     Show table result in console         [boolean] [default: false]
-  -e, --expo     Exponential number of multiplication table
-                                                          [number] [default: 10]
+      --help     Show help                                      [boolean]
+      --version  Show version number                            [boolean]
+  -b, --base     Base of multiplication               [number] [required]
+  -l, --list     Show table in console         [boolean] [default: false]
+  -e, --expo     Exponential of multiplication
+                                                   [number] [default: 10]
 
 ```
