@@ -1,6 +1,7 @@
 #Notes:
 
-This is my first program in the console of Node
+This is my first program in the console of Node.
+Recuerde instalar modulos de node antes de correr los scripts : npm install
 
 ```
 Options:
