@@ -4,21 +4,21 @@ const argv = require("yargs")
 		alias: "base",
 		type: "number",
 		demandOption: true,
-		describe: `Base number of multiplication table`
+		describe: `Base of multiplication`
 	})
 
 	.option("l", {
 		alias: "list",
 		type: "boolean",
 		default: false,
-		describe: `Show table result in console`
+		describe: `Show table in console`
 	})
 
 	.option("e", {
 		alias: "expo",
 		type: "number",
 		default: 10,
-		describe: `Exponential number of multiplication table`
+		describe: `Exponential of multiplication`
 	})
 	
 	.check((argv, options) => {
